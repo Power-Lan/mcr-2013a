@@ -1,0 +1,10 @@
+prefix=/usr/local/MATLAB/MATLAB_Compiler_Runtime/v81
+libdir=${prefix}/runtime/glnxa64
+includedir=${prefix}/extern/include
+
+Name: matlab-wrapper-mcr-2013a
+Description: Matlab Compiler Runtime r2013a
+Version: r2013a
+Cflags: -I${includedir}
+Libs: -L${libdir} -lmwmclmcrrt
+

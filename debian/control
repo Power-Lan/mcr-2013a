@@ -1,0 +1,12 @@
+Source: matlab-wrapper-mcr-r2013a
+Maintainer: William MARTIN <william.martin@power-lan.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8)
+
+Package: matlab-wrapper-mcr-r2013a
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Matlab Compiler runtime (r2013a)
+

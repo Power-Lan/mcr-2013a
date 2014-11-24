@@ -1,0 +1,8 @@
+*~
+*.log
+*.substvars
+*.debhelper
+MCR_*_glnxa64_installer.zip
+mcr/
+debian/files
+debian/matlab-wrapper-mcr-*
